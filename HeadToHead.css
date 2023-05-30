@@ -29,7 +29,7 @@ a{
 }
 
 .navigationMenu li {
-padding-top: 50px;
+    padding-top: 50px;
 }
 
 #navBox{
@@ -42,4 +42,101 @@ padding-top: 50px;
     padding-right: 60px;
     padding-left: 20px;
     margin-left: 90px;
+}
+
+.Prices{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    height: 300px;
+}
+
+.PricesIMG{
+    width: 1000px;
+    height: 300px;
+}
+
+.Comparison {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    width: 100%;
+    }
+
+    .div1 { 
+        grid-area: 1 / 1 / 7 / 2; 
+    }
+    .div2 { 
+        grid-area: 1 / 2 / 8 / 3;
+    }
+
+.ComparisonKey{
+    height:50px;
+    width:500px
+}
+
+.FirstCard{
+    height: 75px;
+    width: 500px
+}
+
+.SecondCard{
+    height: 75px;
+    width: 500px
+}
+
+.ThirdCard{
+    height: 75px;
+    width: 500px
+}
+
+.ForthCard{
+    height: 75px;
+    width: 500px
+}
+
+.FifthCard{
+    height: 75px;
+    width: 500px
+}
+
+.SixthCard{
+    height: 75px;
+    width: 500px
+}
+
+.SeventhCard{
+    height: 75px;
+    width: 500px
+}
+
+.EighthCard{
+    height: 75px;
+    width: 500px
+}
+
+.NinthCard{
+    height: 75px;
+    width: 500px
+}
+
+.TenthCard{
+    height: 75px;
+    width: 500px
+}
+
+.EleventhCard{
+    height: 75px;
+    width: 500px
+}
+
+.TwelthCard{
+    height: 75px;
+    width: 500px
 }
