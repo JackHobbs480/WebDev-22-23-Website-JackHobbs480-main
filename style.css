@@ -1,0 +1,20 @@
+html{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    font-family:Arial;
+    font-weight: 400;
+    margin: 10px;
+    padding: 0;
+    background-color: lightgray;
+    animation: backgroundColor 10s infinite;
+}
+
+@keyframes backgroundColor {
+    0%    {background-color: lightgray;}
+    50%    {background-color: darkred;}
+    100%    {background-color: lightgray;}
+}
+

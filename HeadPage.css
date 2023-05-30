@@ -1,0 +1,88 @@
+.header{
+    background-color: #333333;
+    color: red;
+    text-align: center;
+    min-height: 130px;
+ }
+
+ #title{
+    text-decoration: underline;
+    font-family: tahoma; 
+    font-weight: 700; 
+    font-size: 38px; 
+    padding-top: 40px;
+}
+
+ .navigationMenu ul {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+a{
+    color:white;
+    text-decoration: underline;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family:Arial;
+    font-weight: 400;
+}
+
+.navigationMenu li {
+padding-top: 50px;
+}
+
+#navBox{
+    background-color: #333333;
+    float: right;
+    text-align: center;
+    min-height: 350px;
+    margin-top: 17px;
+    margin-right: 80px;
+    padding-right: 60px;
+    padding-left: 20px;
+    margin-left: 90px;
+}
+
+.intro{
+    background-color: #333333;
+    color: white;
+    width: 65%;
+    margin-left: 60px;
+    margin-top: 17px;
+}
+
+#introduction{
+    text-align: center;
+}
+
+.videoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 350px;
+}
+
+.contentSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.performance{
+    background-color: #333333;
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: tahoma; 
+    font-weight: 700; 
+    font-size: 20px; 
+}
+
+#breakthrough{
+    text-align: center;
+}

@@ -1,0 +1,113 @@
+    header{
+    background-color: #333333;
+    color: red;
+    text-align: center;
+    min-height: 130px;
+ }
+
+ #title{
+    text-decoration: underline;
+    font-family: tahoma; 
+    font-weight: 700; 
+    font-size: 38px; 
+    padding-top: 40px;
+}
+
+.navigationMenu ul {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+a{
+    color:white;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family:Arial;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.navigationMenu li {
+    padding-top: 50px;
+}
+
+aside{
+    background-color: #333333;
+    float: right;
+    text-align: center;
+    min-height: 350px;
+    margin-top: 17px;
+    margin-right: 80px;
+    padding-right: 60px;
+    padding-left: 20px;
+    margin-left: 90px;
+}
+
+section{
+    background-color: #333333;
+    color: white;
+    float: left;
+    text-align: center;
+    margin-top: 17px;
+    width: 65%;
+    height: max-content;
+}
+
+.gpuONE{
+    float: left;
+    max-width: 500px;
+    max-height: 300px;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.LinksTo7900{
+    color: white;
+    float: right;
+    list-style-type: none;
+}
+
+.LinksTo7900 li{
+    padding-top: 25px;
+    padding-right: 170px;
+}
+
+.gpuTWO{
+    float: left;
+    max-width: 500px;
+    max-height: 300px;
+    margin-top: 5px;
+    margin-left: 150px;
+}
+
+.LinksTo7600{
+    color: white;
+    float: right;
+    list-style-type: none;
+}
+
+.LinksTo7600 li{
+    padding-top: 25px;
+    padding-right: 170px;
+}
+
+.gpuTHREE{
+    float: left;
+    max-width: 500px;
+    max-height: 300px;
+    margin-top: 5px;
+    margin-left: 50px;
+    padding-bottom: 25px;
+}
+
+.LinksTo6000Series{
+    color: white;
+    float: right;
+    list-style-type: none;
+}
+
+.LinksTo6000Series li{
+    padding-top: 20px;
+    padding-right: 170px;
+}
