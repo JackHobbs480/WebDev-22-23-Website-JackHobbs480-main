@@ -1,4 +1,4 @@
-.header{
+header{
     background-color: #333333;
     color: red;
     text-align: center;
@@ -38,7 +38,7 @@ a{
     text-align: center;
     min-height: 350px;
     margin-top: 17px;
-    margin-right: 80px;
+    margin-right: 50px;
     padding-right: 60px;
     padding-left: 20px;
     margin-left: 90px;
@@ -50,23 +50,29 @@ a{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 70%;
+    width: 60%;
     height: 300px;
+    margin-left: 50px;
 }
 
 .PricesIMG{
-    width: 1000px;
+    width: 100%;
     height: 300px;
 }
 
 .Comparison {
+    background-color: #333333;
+    padding-bottom: 30px;
     padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 10px;
+    grid-column-gap: 5px;
     grid-row-gap: 0px;
-    width: 100%;
     }
 
     .div1 { 
