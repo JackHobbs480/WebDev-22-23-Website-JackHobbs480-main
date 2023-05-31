@@ -56,7 +56,7 @@ section{
 }
 
 .gpuONE{
-    float: left;
+    float: left; /*Each GPU has its own box and in each one I have and image and some navigation links that go to external websites.*/
     max-width: 500px;
     max-height: 300px;
     margin-top: 5px;

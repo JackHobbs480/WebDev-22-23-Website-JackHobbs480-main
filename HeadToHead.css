@@ -46,6 +46,7 @@ a{
 
 .Prices{
     background-color: #333333;
+    display: flex;
     color: white;
     text-align: center;
     margin-top: 50px;
@@ -56,27 +57,27 @@ a{
 }
 
 .PricesIMG{
+    display: flex;
     width: 100%;
     height: 300px;
 }
 
-.Comparison {
-    background-color: #333333;
+.Comparison {  /*This CSS code makes a flex box*/
     padding-bottom: 30px;
     padding-top: 30px;
     padding-left: 100px;
     padding-right: 100px;
     margin-left: 100px;
     margin-right: 100px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 0px;
+    display: grid; /*I used display grid to get two seperate rows of images.*/
+    grid-template-columns: repeat(2, 1fr); /*This changes how many columns there are and the width of the columns.*/
+    grid-template-rows: 1fr; /*Thischanges the width of the rows.*/
+    grid-column-gap: 5px; /*This changes the space between the columns.*/
+    grid-row-gap: 0px; /*This changes the space between the rows.*/
     }
 
     .div1 { 
-        grid-area: 1 / 1 / 7 / 2; 
+        grid-area: 1 / 1 / 7 / 2; /*This affects the size and location of the gride*/
     }
     .div2 { 
         grid-area: 1 / 2 / 8 / 3;

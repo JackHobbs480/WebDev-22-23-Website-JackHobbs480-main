@@ -37,7 +37,7 @@ padding-top: 50px;
     float: right;
     text-align: center;
     min-height: 350px;
-    margin-top: 17px;
+    margin-top: 17px; /*For each page I've lightly adjusted the nav box to better fit the website.*/
     margin-right: 80px;
     padding-right: 60px;
     padding-left: 20px;
@@ -47,7 +47,7 @@ padding-top: 50px;
 .intro{
     background-color: #333333;
     color: white;
-    width: 65%;
+    width: 65%; /*This makes the box as wide as 65% of the screen.*/
     margin-left: 60px;
     margin-top: 17px;
 }
@@ -59,7 +59,7 @@ padding-top: 50px;
 .videoContainer{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /*This affects where in the box the content is.*/
     flex-direction: row;
     min-height: 350px;
 }

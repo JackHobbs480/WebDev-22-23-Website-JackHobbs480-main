@@ -9,10 +9,10 @@ body{
     margin: 10px;
     padding: 0;
     background-color: lightgray;
-    animation: backgroundColor 10s infinite;
+    animation: backgroundColor 10s infinite; /*This is code for an animation. This one is changing the background color every ten seconds.*/
 }
 
-@keyframes backgroundColor {
+@keyframes backgroundColor { /*This determines the colors in the animation and how long the background stays a certain color.*/
     0%    {background-color: lightgray;}
     50%    {background-color: darkred;}
     100%    {background-color: lightgray;}
